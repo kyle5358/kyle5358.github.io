@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kai Yao / Personal Homepage"
+title                    : "Kai Yao"
 title_separator          : "-"
 name                     : &name "Kai Yao"
 description              : &description "personal description"
@@ -85,8 +85,8 @@ author:
   bio              : "Graduate student at SEU"
   location         : "Nanjing, China"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
