@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year graduate student at Southeast University, Nanjing(SEU) ,advised by Prof. Guilin Qi. I received mu bachelor degree in Computer Science and Technollogy at University of Electronic Science and Technology of China(UESTC).
+I am a second-year graduate student at Southeast University, Nanjing(SEU) ,advised by Prof. Guilin Qi. I received mu bachelor degree in Computer Science and Technology at University of Electronic Science and Technology of China(UESTC).
 
 Research
 ======
