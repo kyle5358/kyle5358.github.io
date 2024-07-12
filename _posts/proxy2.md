@@ -1,5 +1,5 @@
 ---
-title: 'proxy'
+title: 'proxy2'
 date: 2013-07-11
 permalink: /posts/2013/07/proxy2/
 tags:
