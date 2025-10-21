@@ -8,15 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year graduate student at Southeast University, Nanjing(SEU) ,advised by Prof. Guilin Qi. I received mu bachelor degree in Computer Science and Technology at University of Electronic Science and Technology of China(UESTC).
-
-Research
-======
-My research concentrated in NLP, adversarial exmples.
-
-Projects
-======
-Please see mu Github for details.
-
-# Experience
-
+I received my bachelor’s degree in Aeronautical Engineering from the Tokyo Imperial University. After graduation, I joined Mitsubishi Heavy Industries, where I worked as an aircraft designer.
