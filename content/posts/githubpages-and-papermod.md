@@ -8,4 +8,18 @@ title: 'Githubpages and Papermod'
 
 ## 用githubpages可以让github托管个人博客，papermod这个hugo主题则是很简洁，支持latex，渲染很快
 
-test test
+
+
+## hugo框架
+
+
+
+## PaperMod主题
+
+
+
+## github action
+
+
+
+## 

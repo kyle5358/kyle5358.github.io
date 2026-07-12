@@ -6,8 +6,19 @@
     <description>Recent content in Posts on Kyle Blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Jul 2026 16:19:41 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 17:22:30 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Githubpages and Papermod</title>
+      <link>http://localhost:1313/posts/githubpages-and-papermod/</link>
+      <pubDate>Sun, 12 Jul 2026 17:22:30 +0800</pubDate>
+      <guid>http://localhost:1313/posts/githubpages-and-papermod/</guid>
+      <description>&lt;h2 id=&#34;用githubpages可以让github托管个人博客papermod这个hugo主题则是很简洁支持latex渲染很快&#34;&gt;用githubpages可以让github托管个人博客，papermod这个hugo主题则是很简洁，支持latex，渲染很快&lt;/h2&gt;
+&lt;h2 id=&#34;hugo框架&#34;&gt;hugo框架&lt;/h2&gt;
+&lt;h2 id=&#34;papermod主题&#34;&gt;PaperMod主题&lt;/h2&gt;
+&lt;h2 id=&#34;github-action&#34;&gt;github action&lt;/h2&gt;
+&lt;h2&gt;&lt;/h2&gt;</description>
+    </item>
     <item>
       <title>从概率论角度看谈恋爱</title>
       <link>http://localhost:1313/posts/dating-from-a-probability-perspective/</link>
