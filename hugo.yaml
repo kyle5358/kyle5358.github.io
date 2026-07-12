@@ -4,4 +4,23 @@ title: Kyle Blog
 theme: PaperMod
 params:
   profileMode:
-    enabled: true
+    enabled: false
+  # homeInfoParams:
+  #   Title: "Hi there 👋"
+  #   Content: "Welcome to Kyle's Blog"
+  math: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
+
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20

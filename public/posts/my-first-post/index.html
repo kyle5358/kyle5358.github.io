@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head>
-	<meta name="generator" content="Hugo 0.148.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Kyle Blog</title>
-
-<meta name="description" content="">
+<title>My First Post | Kyle Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="My First Post - Kyle Blog">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/">
+<link rel="canonical" href="http://localhost:1313/posts/my-first-post/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.d92d9aa382a827dda21bf1377e9203e27a444da2e8b4ef76913833adb6d6ba15.css" integrity="sha256-2S2ao4KoJ92iG/E3fpID4npETaLotO92kTgzrbbWuhU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -19,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/my-first-post/">
 <noscript>
     <style>
         #theme-toggle,
@@ -67,35 +65,8 @@
     }
 
 </script>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css"
-  crossorigin="anonymous">
-
-<script defer
-  src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"
-  crossorigin="anonymous">
-</script>
-
-<script defer
-  src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"
-  crossorigin="anonymous">
-</script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  renderMathInElement(document.body, {
-    delimiters: [
-      { left: "$$", right: "$$", display: true },
-      { left: "$", right: "$", display: false }
-    ],
-    throwOnError: false
-  });
-});
-</script>
-
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
@@ -137,26 +108,31 @@ document.addEventListener("DOMContentLoaded", function () {
         </ul>
     </nav>
 </header>
-<main class="main"> 
+<main class="main">
 
-<article class="first-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">从概率论角度看谈恋爱
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>策略一：“广撒网”的数学最优解 策略核心：先接触足够多的人建立标准，再选择下一个比之前所有人都好的。这其实是著名的“秘书问题”或“37%法则”。
-1.问题建模 假设你一生会遇到N个潜在伴侣 他们按质量全序排列，以随机顺序出现 你只能选择当前这个人，或者永远放弃 2. 策略定义 观察前$k$个人，无条件拒绝 从第$k&#43;1$个人开始，选择第一个比样本集所有人都优秀的人 3.成功概率计算 最佳伴侣出现在位置$i$的概率：$P$(最佳者在位置$i$)=$\frac{1}{N}$
-当$i$&gt;$k$时，成功条件是：前$i$-1人中的最佳者必须出现在前$k$人中 $$ \begin{aligned} P_{成功}(k) &amp;=\sum_{i=k&#43;1}^{N}P(选中最佳者|最佳者位置在i)\cdot{P(最佳者在位置i)}\ &amp;=\sum_{i=k&#43;1}^{N}(\frac{k}{i-1})\cdot\frac{1}{N} \end{aligned} $$
-4.最优解求解 当$N$很大时，令$x=\frac{k}{N}$，将求和近似为积分： $$ P_{成功}(k)\approx\int_{x}^{1}\frac{x}{t}dt=-xlnx $$ 是一个关于变量$k$的函数
-求导： $$ \frac{d}{dx}(-xlnx)=-lnx-1 $$ 令导数为0： $$ x=e^(-1)\approx0.3678 $$ 即样本集为前36.78%最优，选到最佳伴侣的概率为代入，为36.8%
-用前37%的经历建立标准，然后选择下一个最好的，就有36.8%的概率选到最佳伴侣。
-</p>
-  </div>
-  <footer class="entry-footer">
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      My First Post
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h1>
+    <div class="post-meta">
 
-<span title='2026-07-12 16:19:41 +0800 CST'>July 12, 2026</span></footer>
-  <a class="entry-link" aria-label="post link to 从概率论角度看谈恋爱" href="http://localhost:1313/posts/dating-from-a-probability-perspective/"></a>
+<span title='2026-07-08 00:51:51 +0800 CST'>July 8, 2026</span>
+
+</div>
+  </header> 
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
 </article>
     </main>
     
