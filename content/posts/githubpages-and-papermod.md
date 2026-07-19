@@ -1,7 +1,9 @@
 ---
 date: '2026-07-12T17:22:30+08:00'
 draft: false
-title: 'Githubpages and Papermod'
+title: 'Githubpages个人博客指南'
+tags:
+  - software
 ---
 
 

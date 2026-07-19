@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Kyle Blog</title>
+    <title>Posts on Kyle&#39;s Blog</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Kyle Blog</description>
+    <description>Recent content in Posts on Kyle&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Jul 2026 17:22:30 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 18:24:19 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Githubpages and Papermod</title>
+      <title>Cs336_assignment1</title>
+      <link>http://localhost:1313/posts/cs336_assignment1/</link>
+      <pubDate>Sun, 19 Jul 2026 18:24:19 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cs336_assignment1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Githubpages个人博客指南</title>
       <link>http://localhost:1313/posts/githubpages-and-papermod/</link>
       <pubDate>Sun, 12 Jul 2026 17:22:30 +0800</pubDate>
       <guid>http://localhost:1313/posts/githubpages-and-papermod/</guid>

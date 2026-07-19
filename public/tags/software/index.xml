@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software on Kyle&#39;s Blog</title>
+    <link>http://localhost:1313/tags/software/</link>
+    <description>Recent content in Software on Kyle&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 12 Jul 2026 17:22:30 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Githubpages个人博客指南</title>
+      <link>http://localhost:1313/posts/githubpages-and-papermod/</link>
+      <pubDate>Sun, 12 Jul 2026 17:22:30 +0800</pubDate>
+      <guid>http://localhost:1313/posts/githubpages-and-papermod/</guid>
+      <description>&lt;h2 id=&#34;用githubpages可以让github托管个人博客papermod这个hugo主题则是很简洁支持latex渲染很快&#34;&gt;用githubpages可以让github托管个人博客，papermod这个hugo主题则是很简洁，支持latex，渲染很快&lt;/h2&gt;
+&lt;h2 id=&#34;hugo框架&#34;&gt;hugo框架&lt;/h2&gt;
+&lt;h2 id=&#34;papermod主题&#34;&gt;PaperMod主题&lt;/h2&gt;
+&lt;h2 id=&#34;github-action&#34;&gt;github action&lt;/h2&gt;
+&lt;h2&gt;&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Kyle&#39;s Blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Kyle&#39;s Blog</description>
+    <title>Math on Kyle&#39;s Blog</title>
+    <link>http://localhost:1313/tags/math/</link>
+    <description>Recent content in Math on Kyle&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 19 Jul 2026 18:24:19 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cs336_assignment1</title>
-      <link>http://localhost:1313/posts/cs336_assignment1/</link>
-      <pubDate>Sun, 19 Jul 2026 18:24:19 +0800</pubDate>
-      <guid>http://localhost:1313/posts/cs336_assignment1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Githubpages个人博客指南</title>
-      <link>http://localhost:1313/posts/githubpages-and-papermod/</link>
-      <pubDate>Sun, 12 Jul 2026 17:22:30 +0800</pubDate>
-      <guid>http://localhost:1313/posts/githubpages-and-papermod/</guid>
-      <description>&lt;h2 id=&#34;用githubpages可以让github托管个人博客papermod这个hugo主题则是很简洁支持latex渲染很快&#34;&gt;用githubpages可以让github托管个人博客，papermod这个hugo主题则是很简洁，支持latex，渲染很快&lt;/h2&gt;
-&lt;h2 id=&#34;hugo框架&#34;&gt;hugo框架&lt;/h2&gt;
-&lt;h2 id=&#34;papermod主题&#34;&gt;PaperMod主题&lt;/h2&gt;
-&lt;h2 id=&#34;github-action&#34;&gt;github action&lt;/h2&gt;
-&lt;h2&gt;&lt;/h2&gt;</description>
-    </item>
+    <lastBuildDate>Sun, 12 Jul 2026 16:19:41 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从概率论角度看谈恋爱</title>
       <link>http://localhost:1313/posts/dating-from-a-probability-perspective/</link>
@@ -70,21 +52,6 @@ x=e^(-1)\approx0.3678
 $$
 即样本集为前36.78%最优，选到最佳伴侣的概率为代入，为36.8%&lt;/p&gt;
 &lt;p&gt;用前37%的经历建立标准，然后选择下一个最好的，就有36.8%的概率选到最佳伴侣。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
-&lt;p&gt;Hi, I&amp;rsquo;m Kyle.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cyber Security&lt;/li&gt;
-&lt;li&gt;Threat Intelligence&lt;/li&gt;
-&lt;li&gt;AI&lt;/li&gt;
-&lt;li&gt;Quantitative Research&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Welcome to my blog.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

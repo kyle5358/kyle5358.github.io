@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CS336 on Kyle&#39;s Blog</title>
+    <link>http://localhost:1313/tags/cs336/</link>
+    <description>Recent content in CS336 on Kyle&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 19 Jul 2026 18:24:19 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cs336/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cs336_assignment1</title>
+      <link>http://localhost:1313/posts/cs336_assignment1/</link>
+      <pubDate>Sun, 19 Jul 2026 18:24:19 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cs336_assignment1/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
