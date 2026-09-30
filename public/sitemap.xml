@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-09-20T00:44:14+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2026-09-20T00:44:14+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/linux_commands_cheat_sheet/</loc>
+    <lastmod>2026-09-20T00:44:14+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-09-20T00:44:14+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-09-20T00:44:14+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/esp32_drone/</loc>
+    <lastmod>2026-07-28T23:00:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hardware/</loc>
+    <lastmod>2026-07-28T23:00:13+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/algorithm/</loc>
     <lastmod>2026-07-19T18:24:19+08:00</lastmod>
   </url><url>
@@ -9,15 +30,6 @@
     <lastmod>2026-07-19T18:24:19+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/cs336_assignment1/</loc>
-    <lastmod>2026-07-19T18:24:19+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-19T18:24:19+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-07-19T18:24:19+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-07-19T18:24:19+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/githubpages-and-papermod/</loc>

@@ -6,8 +6,81 @@
     <description>Recent content on Kyle&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 19 Jul 2026 18:24:19 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 00:44:14 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux_commands_cheat_sheet</title>
+      <link>http://localhost:1313/posts/linux_commands_cheat_sheet/</link>
+      <pubDate>Sun, 20 Sep 2026 00:44:14 +0800</pubDate>
+      <guid>http://localhost:1313/posts/linux_commands_cheat_sheet/</guid>
+      <description>&lt;h2 id=&#34;应用程序管理&#34;&gt;应用程序管理&lt;/h2&gt;
+&lt;h4 id=&#34;which&#34;&gt;which&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ which clear
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/bin/clear
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;yum&#34;&gt;yum&lt;/h4&gt;
+&lt;p&gt;安装和卸载系统中的工具&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo yum -y install net-tools
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;控制台和输出管理&#34;&gt;控制台和输出管理&lt;/h3&gt;
+&lt;h4 id=&#34;cat&#34;&gt;cat&lt;/h4&gt;
+&lt;p&gt;文件内容输出&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cat /etc/system-release
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Red Hat enterprise Linux release 8.5
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;echo&#34;&gt;echo&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello world&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hello world
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello world&amp;#34;&lt;/span&gt; &amp;gt; data.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;top&#34;&gt;top&lt;/h4&gt;
+&lt;p&gt;显示有关正在运行的Linux进程的信息&lt;/p&gt;
+&lt;p&gt;示例：显示top命令，并将结果通过管道符传递给more命令，一边查看输出的第一页&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ top | more
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;top - 12:02:29 up &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt; days, 20:20, &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; users, load average: 0.01, 0.02, 0.00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Tasks: &lt;span style=&#34;color:#ae81ff&#34;&gt;201&lt;/span&gt; total, &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; running, &lt;span style=&#34;color:#ae81ff&#34;&gt;199&lt;/span&gt; sleeping, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; stopped, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; zombie
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;%Cpu&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;: 0.0 us, 6.2 sy, 0.0 ni,93.8 id, 0.0 wa, 0.0 hi, 0.0 si, 0.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;st
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;MiB Mem : 7770.8 total, 5409.8 free, 1240.8 used, 1120.2 buff/cache
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;MiB Swap: 8092.0 total, 8092.0 free, 0.0 used. 6205.6 avail Mem
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;COMMAND
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;82399&lt;/span&gt; guest &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;65584&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5120&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4212&lt;/span&gt; R 5.9 0.1 0:00.02 top
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; root &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;175932&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;14212&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;8924&lt;/span&gt; S 0.0 0.2 0:06.21
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;systemd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; root &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; S 0.0 0.0 0:00.13
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kthreadd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; root &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; -20 &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; I 0.0 0.0 0:00.00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rcu_gp
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt; root &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; -20 &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; I 0.0 0.0 0:00.00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rcu_par_gp
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt; root &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; -20 &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; I 0.0 0.0 0:00.00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kworker/0:0H-events_highpri
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;9&lt;/span&gt; root &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; -20 &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; I 0.0 0.0 0:00.00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mm_percpu_wq
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt; root &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; S 0.0 0.0 0:02.73
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ksoftirqd/0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;11&lt;/span&gt; root &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; R 0.0 0.0 0:01.10
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rcu_sched
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;12&lt;/span&gt; root rt &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; S 0.0 0.0 0:00.00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;migration/0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;13&lt;/span&gt; root rt &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; S 0.0 0.0 0:00.04
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;watchdog/0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;14&lt;/span&gt; root &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; S 0.0 0.0 0:00.00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cpuhp/0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt; root &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; S 0.0 0.0 0:00.00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kdevtmpfs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--More--
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;环境变量命令&#34;&gt;环境变量命令&lt;/h2&gt;
+&lt;h4 id=&#34;env&#34;&gt;env&lt;/h4&gt;
+&lt;p&gt;显示系统上正在运行的所有环境变量&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ESP32_drone</title>
+      <link>http://localhost:1313/posts/esp32_drone/</link>
+      <pubDate>Tue, 28 Jul 2026 23:00:13 +0800</pubDate>
+      <guid>http://localhost:1313/posts/esp32_drone/</guid>
+      <description>&lt;p&gt;1块ESP32开发板，1个&lt;strong&gt;MPU6500&lt;/strong&gt;或&lt;strong&gt;MPU6050&lt;/strong&gt;模块，1个ME6118A33PG稳压芯片，&lt;/p&gt;
+&lt;p&gt;4个AO3416电机芯片，4个8520空心杯电机，1块软包锂电池作为动力，以及少量电容电阻排针排母。&lt;/p&gt;
+&lt;p&gt;本项目采用的核心元件ESP32、MPU6500或MPU6050，以及排针排母，都是插件。&lt;/p&gt;
+&lt;p&gt;少量的贴片电容电阻，间隔也很宽，如果你没有热风机，我相信用尖头的电烙铁也能制作。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cs336_assignment1</title>
       <link>http://localhost:1313/posts/cs336_assignment1/</link>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hardware on Kyle&#39;s Blog</title>
+    <link>http://localhost:1313/tags/hardware/</link>
+    <description>Recent content in Hardware on Kyle&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 28 Jul 2026 23:00:13 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ESP32_drone</title>
+      <link>http://localhost:1313/posts/esp32_drone/</link>
+      <pubDate>Tue, 28 Jul 2026 23:00:13 +0800</pubDate>
+      <guid>http://localhost:1313/posts/esp32_drone/</guid>
+      <description>&lt;p&gt;1块ESP32开发板，1个&lt;strong&gt;MPU6500&lt;/strong&gt;或&lt;strong&gt;MPU6050&lt;/strong&gt;模块，1个ME6118A33PG稳压芯片，&lt;/p&gt;
+&lt;p&gt;4个AO3416电机芯片，4个8520空心杯电机，1块软包锂电池作为动力，以及少量电容电阻排针排母。&lt;/p&gt;
+&lt;p&gt;本项目采用的核心元件ESP32、MPU6500或MPU6050，以及排针排母，都是插件。&lt;/p&gt;
+&lt;p&gt;少量的贴片电容电阻，间隔也很宽，如果你没有热风机，我相信用尖头的电烙铁也能制作。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
